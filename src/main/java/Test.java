@@ -7,7 +7,7 @@ import org.testng.Assert;
 public class Test {
     public static void main(String[] args){
 
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 
